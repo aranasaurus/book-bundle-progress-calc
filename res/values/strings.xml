@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kindle Book Bundle Progress Calculator</string>
+    <string name="startLocLabel">Start location for this book</string>
+    <string name="endLocLabel">Ending location for this book</string>
+    <string name="currentLocLabel">Current location</string>
+    <string name="progressLabel">Current progress</string>
+</resources>

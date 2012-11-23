@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <android.widget.TableLayout android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+        <TableRow android:layout_width="wrap_content"
+                  android:layout_height="fill_parent">
+            <TextView android:text="@string/startLocLabel" />
+            <EditText android:id="@+id/startLocText"
+                      android:inputType="number" />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content"
+                  android:layout_height="fill_parent">
+            <TextView android:text="@string/endLocLabel" />
+            <EditText android:id="@+id/endLocText"
+                      android:inputType="number" />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content"
+                  android:layout_height="fill_parent">
+            <TextView android:text="@string/currentLocLabel" />
+            <EditText android:id="@+id/currentLocText"
+                      android:inputType="number" />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content"
+                  android:layout_height="fill_parent">
+            <TextView android:text="@string/progressLabel" />
+            <TextView android:id="@+id/progressText" android:text="0%" />
+        </TableRow>
+    </android.widget.TableLayout>
+</LinearLayout>
+
