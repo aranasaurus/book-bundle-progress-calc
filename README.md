@@ -1,0 +1,1 @@
+This app was made so that I could easily convert my progress through a single book within a set/bundle in the Kindle app to a useful format for updating my progress in GoodReads. This is necessary because when reading a book in a set the Kindle app treats the set as one big book, and shows your progress as a location within the entire set, instead of a single book.
